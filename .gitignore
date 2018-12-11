@@ -21,3 +21,19 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/// notes:
+
+1. 
+
+- Install react
+- Set up components
+- Change relative path for app (index.js)
+- Install styled components
+
+Todo:
+
+- CSS Modules 
+- Continue...
+
+2.
