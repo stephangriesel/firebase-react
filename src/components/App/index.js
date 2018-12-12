@@ -1,4 +1,8 @@
 import React from "react";
+import { BrowserRouter as Router } from 'react-router-dom';
+
+import Navigation from '../Navigation';
+
 import { ThemeProvider } from "styled-components";
 
 import Wrapper from "../Layout/Wrapper";
@@ -12,11 +16,9 @@ const theme = {
 const App = () => (
   <ThemeProvider theme={theme}>
     <Wrapper>
-      <div>
-        <HeaderText>App</HeaderText>
-        <Button primary>Primary</Button>
-        <Button>Regular</Button>
-      </div>
+      <Router>
+          <Navigation />
+      </Router>
     </Wrapper>
   </ThemeProvider>
 );
