@@ -7,7 +7,7 @@ import {
 import Navigation from '../Navigation';
 import LandingPage from '../Landing';
 import SignUpPage from '../Signup';
-import SignInPage from '../Signin';
+import SignInPage from '../SignIn';
 import PasswordForgetPage from '../PasswordForgetPage';
 import HomePage from '../Home';
 import AccountPage from '../Account';
@@ -18,8 +18,6 @@ import * as ROUTES from '../../constants/routes';
 import { ThemeProvider } from "styled-components";
 
 import Wrapper from "../Layout/Wrapper";
-import Button from "../Layout/Button";
-import HeaderText from "../Layout/HeaderText";
 
 const theme = {
   font: "Verdana"
